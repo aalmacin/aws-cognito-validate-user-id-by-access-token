@@ -1,6 +1,6 @@
 {
   "name": "aws-cognito-validate-user-id-by-access-token",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Validate user id by access token returned by AWS Cognito",
   "main": "index.js",
   "scripts": {

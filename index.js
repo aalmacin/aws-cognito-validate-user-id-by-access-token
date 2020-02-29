@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk');
 
-exports.validateUserId = (accessToken, userId, region = 'us-east-1') => {
+module.exports = (accessToken, userId, region = 'us-east-1') => {
     return new Promise(function(resolve, reject) {
         AWS.config.region = region;
         const cisp = new AWS.CognitoIdentityServiceProvider()

@@ -1,0 +1,31 @@
+{
+  "name": "aws-cognito-validate-user-id-by-access-token",
+  "version": "1.0.0",
+  "description": "Validate user id by access token returned by AWS Cognito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalmacin/aws-cognito-validate-user-id-by-access-token.git"
+  },
+  "keywords": [
+    "aws",
+    "cognito",
+    "user",
+    "id",
+    "access",
+    "token",
+    "sub"
+  ],
+  "author": "Aldrin Jerome Almacin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalmacin/aws-cognito-validate-user-id-by-access-token/issues"
+  },
+  "homepage": "https://github.com/aalmacin/aws-cognito-validate-user-id-by-access-token#readme",
+  "dependencies": {
+    "aws-sdk": "^2.630.0"
+  }
+}
